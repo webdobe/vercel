@@ -5,6 +5,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-color: #fff;
 }
 
 .description {
@@ -108,6 +109,12 @@
 .logo {
   position: relative;
 }
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
